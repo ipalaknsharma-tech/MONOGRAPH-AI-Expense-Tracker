@@ -1760,22 +1760,22 @@ elif page == "Transaction History":
             padding: 30px;
             text-align: center;
         ">
-            <div style="
-                color: #C9D68A;
-                font-size: 12px;
-                letter-spacing: 2px;
-                font-weight: 700;
-            ">
-                YOUR RECORDS / EMPTY
-            </div>
+        <div style="
+            color: #C9D68A;
+            font-size: 12px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        ">
+            YOUR RECORDS / EMPTY
+        </div>
 
-            <h2 style="color: #F3EEE3;">
-                No transactions found.
-            </h2>
+        <h2 style="color: #F3EEE3;">
+            No transactions found.
+        </h2>
 
-            <p style="color: #A7A396;">
-                Add your first transaction to begin tracking your finances.
-            </p>
+        <p style="color: #A7A396;">
+            Add your first transaction to begin tracking your finances.
+        </p>
         </div>
         """, unsafe_allow_html=True)
 
