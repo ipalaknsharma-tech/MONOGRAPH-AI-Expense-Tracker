@@ -3327,6 +3327,8 @@ Make smarter financial decisions.
     st.divider()
     st.subheader("🔮 Predictive Expense Forecast")
 
+    expense_df = df[df["Type"] == "Expense"].copy()
+
     if not expense_df.empty:
         monthly_expenses = (
             expense_df.groupby(expense_df["Date"].dt.to_period("M"))["Amount"]
